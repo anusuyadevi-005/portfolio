@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #E8C1B2;
+    color: #5A3E36;
+    line-height: 1.6;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    border: 2px solid #D7B26A;
+    box-shadow: 0 4px 12px rgba(90, 62, 54, 0.2);
+  }
+  
+  .left-column {
+    width: 30%;
+    background-color: #C97C5D;
+    color: #FBE8DB;
+    padding: 20px;
+  }
+  
+  .right-column {
+    width: 70%;
+    padding: 30px;
+    background-color: #E8C1B2;
+  }
+  
+  .profile h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #FBE8DB;
+  }
+  
+  .profile p {
+    font-size: 16px;
+    color: #FBE8DB;
+  }
+  
+  .section {
+    margin-top: 30px;
+  }
+  
+  .section h2 {
+    font-size: 20px;
+    color: #944E63;
+    border-bottom: 2px solid #D7B26A;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  ul.contact {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul.contact li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  ul.contact a {
+    color: #FBE8DB;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+  
+  ul.contact i {
+    color: #D7B26A;
+    margin-right: 5px;
+  }
+  
